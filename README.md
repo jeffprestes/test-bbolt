@@ -1,6 +1,11 @@
-# test-bbolt
+# test bbolt
 
-# Structure of a Project
+This is a MVC CRUD in REST Application built on top of Mercurius framework ( <https://github.com/novatrixtech/mercurius> ) to test BBolt database and Storm Framework.
+
+It has very good performance and very simple and flexible sintaxe.
+
+## Structure of the Project
+
 ```
 /conf 
 Application configuration including environment-specific configs
@@ -31,6 +36,9 @@ Database comunication following repository pattern
 
 main.go
 Application entry
+
+user.db
+BBolt Database for Users
 
 ## Build 
 
